@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(-45deg, blue, green);
+  height: 680px;
+}
+.container-fluid {
+  margin-top: 60px;
+  background-color: #000000;
+  width: 40%;
+  border-radius: 30px;
+  padding: 30px;
+  border: 2px solid white;
+}
+#location {
+  text-align: center;
+  height: auto;
+  font-family: verdana;
+  font-size: 30px;
+  color: white;
+}
+#current-weather {
+  text-align: center;
+  height: auto;
+  font-family: verdana;
+  font-size: 25px;
+  color: white;
+}
+#temp {
+  text-align: center;
+  height: auto;
+  font-family: verdana;
+  font-size: 25px; 
+  color: white;
+}
+#weather-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+#fah {
+  background-color: white;
+  display: inline-block; 
+  margin-left: -100px;
+  border-radius: 20px;
+  border: 2px double red;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: Quattrocento Sans;
+}
+#fah:hover {
+  opacity: 1;
+  background-color: blue;
+  color: white;
+  transform: scale(1.4);
+}
+#cel:hover {
+  opacity: 1;
+  background-color: blue;
+  color: white; 
+  transform: scale(1.4);
+}
+#cel {
+  background-color: white;
+  display: inline-block;
+  margin-right: -100px;
+  border-radius: 20px;
+  border: 2px double red;
+  opacity: 0.6;
+  cursor: pointer;
+  font-family: Quattrocento Sans;
+}
+.arrow {
+  text-align: center;
+  font-size: 100px;
+  color: green;
+}
+.row {
+  text-align: center;
+  margin-top: 90px;
+}
+h1 {
+  font-family: Quattrocento Sans;
+  color: white;
+}
+#current-weather {
+  font-family: Quattrocento Sans;
+}
+#location {
+  font-family: Quattrocento Sans;
+}
+#temp {
+  font-family: Quattrocento Sans;
+}
+
+.row justify-content-center {
+  margin: 30px;
+}
