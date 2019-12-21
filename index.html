@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="weather.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="weatherApp.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">   
+  <h1 class="text-center"> Your Local Weather</h1>
+  <h2 class="arrow"> <i class="fa fa-arrow-down"></i></h2>
+  <div class="show-weather">
+   <pre id="response">
+    <div id="location">   
+</div>
+</pre>
+    <div id="current-weather">
+    </div>
+    <div id="temp">
+    </div>
+    <div id="weather-image">     
+    </div>
+  </div>
+  <div class="row justify-content-center">
+  <div class="col-md-1">
+    <button type="button" id="fah">Switch To Fahrenheit</button>
+    </div>
+    <div class="col-md-1">
+      <button type="button" id="cel">Switch To Celsius</button>  
+    </div>
+      </div>
+  </div>
+  
+</body>
+</html>
